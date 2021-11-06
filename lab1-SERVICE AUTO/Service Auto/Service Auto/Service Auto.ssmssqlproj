@@ -3,10 +3,22 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-JKO3Q0H:DESKTOP-JKO3Q0H\munte">
+        <ConnectionNode Name="DESKTOP-JKO3Q0H:PT\munte">
           <Created>2021-10-13T11:10:39.0357597+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-JKO3Q0H</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="PT:PT\munte">
+          <Created>2021-10-31T18:19:43.6875297+02:00</Created>
+          <Type>SQL</Type>
+          <Server>PT</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
@@ -19,11 +31,59 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-JKO3Q0H:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-JKO3Q0H</AssociatedConnSrvName>
+        <FileNode Name="AnyAll.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>AnyAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deletes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Deletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GroupBy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GroupBy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inserts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Inserts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Joins.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Joins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Service_Auto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Service_Auto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SetOperations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SetOperations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Updates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Updates.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
