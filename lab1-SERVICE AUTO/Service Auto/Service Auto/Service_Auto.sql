@@ -84,7 +84,7 @@ CREATE TABLE WorkshopCars(
 );
 
 
--- a part can be assembled using only one tool and a tool is used to assemble only one part 1:1 --
+-- a tool is used to assemble more parts and a part is assembled only by a tool 1:n --
 
 CREATE TABLE Tools(
 	tool_id int not null primary key,
@@ -97,7 +97,7 @@ CREATE TABLE Parts(
 	part_id int not null primary key,
 	part_name varchar(25),
 	part_cost int,
-	tool_id int unique foreign key references Tools(tool_id)
+	tool_id int foreign key references Tools(tool_id)
 	on delete cascade
 );
 

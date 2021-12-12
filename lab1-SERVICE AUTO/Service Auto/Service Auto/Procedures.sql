@@ -158,10 +158,19 @@ declare @var int;
 	set @var = (select top 1 VH.version
 				from VersionHistory VH)
 
+declare @size int;
+	set @size = (select max(PT.Version)
+				from ProcedureTable PT)
+
 declare @statements char(100);
 declare @procedure nvarchar(100);
 declare @var2 int
-
+if @Version < 0 or @Version > @size
+begin
+	print 'version does not exist'
+end
+else
+begin
 while @var != @Version
 begin
 	if @var > @Version
@@ -212,6 +221,7 @@ begin
 					close RedoCursor
 					deallocate RedoCursor
 					end
+end
 end
 go
 
