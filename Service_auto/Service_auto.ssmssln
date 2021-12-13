@@ -1,21 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 18.00
-VisualStudioVersion = 15.0.27428.2015
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Service Auto", "Service Auto\Service Auto.ssmssqlproj", "{A7F938C3-BA70-440F-9FE7-31728CD60B14}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Service_auto", "Service_auto\Service_auto.ssmssqlproj", "{BF0E8772-8748-4674-8A10-2F3C8FBFDAD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7F938C3-BA70-440F-9FE7-31728CD60B14}.Default|Default.ActiveCfg = Default
+		{BF0E8772-8748-4674-8A10-2F3C8FBFDAD6}.Default|Default.ActiveCfg = Default
+		{1B692CCA-5D43-4659-98B2-AF4DC510BAF0}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {21483282-A34A-4122-A2B1-6AA7C61EE239}
+		SolutionGuid = {C1C0BB67-B495-46C2-90CF-FD31D3397615}
 	EndGlobalSection
 EndGlobal

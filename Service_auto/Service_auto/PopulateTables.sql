@@ -73,7 +73,7 @@ begin
 				BEGIN
 					CONTINUE
 				END
-            INSERT INTO MEchanicsCars(mechanic_id, car_id)
+            INSERT INTO MechanicsCars(mechanic_id, car_id)
             VALUES (@mechanicId, @carId)
 
             SELECT @added = 1

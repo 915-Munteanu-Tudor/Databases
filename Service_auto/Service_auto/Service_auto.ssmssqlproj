@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Service_auto">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PT:PT\munte">
+          <Created>2021-12-12T18:51:32.1487112+01:00</Created>
+          <Type>SQL</Type>
+          <Server>PT</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AnyAll.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AnyAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateRelationalStructure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CreateRelationalStructure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deletes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Deletes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GroupBy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>GroupBy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inserts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Inserts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Joins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Joins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PopulateTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PopulateTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procedures.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Service_Auto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Service_Auto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SetOperations.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SetOperations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tests.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PT:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PT</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Updates.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Updates.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
